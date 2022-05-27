@@ -15,32 +15,151 @@
     <title>Web Studio - Portfolio</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html">Web<span>Studio</span></a>
-        <ul>
-          <li><a href="./index.html">Студия</a></li>
-          <li><a href="./portfolio.html">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+    <header class="header">
+      <nav class="nav">
+        <a class="logo" href="./index.html"
+          >Web<span class="logo-header">Studio</span></a
+        >
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link" href="./index.html">Студия</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="./portfolio.html">Портфолио</a>
+          </li>
+          <li class="nav__item"><a class="nav__link" href="">Контакты</a></li>
         </ul>
       </nav>
 
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="header__contacts">
+        <li>
+          <a class="header__contacts-item" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="header__contacts-item" href="tel:+380961111111"
+            >+38 096 111 11 11</a
+          >
+        </li>
       </ul>
     </header>
 
-    <main></main>
+    <main>
+      <section class="portfolio">
+        <h2 class="hidden" aria-hidden="true" tabindex="-1">hide</h2>
+        <ul class="btn-list">
+          <li><button class="btn btn--sm" type="button">Все</button></li>
+          <li><button class="btn btn--sm" type="button">Веб-сайты</button></li>
+          <li><button class="btn btn--sm" type="button">Приложения</button></li>
+          <li><button class="btn btn--sm" type="button">Дизайн</button></li>
+          <li><button class="btn btn--sm" type="button">Маркетинг</button></li>
+        </ul>
 
-    <footer>
-      <a href="./index.html">Web<span>Studio</span></a>
-      <address>
-        <p>г. Киев, пр-т Леси Украинки, 26</p>
+        <ul class="works">
+          <li class="works__item">
+            <img
+              src="./assets/image/portfolio/portfolio-work-1.jpg"
+              alt="Веб-сайт: Технокряк"
+              width="370"
+            />
+            <h3 class="works__title">Технокряк</h3>
+            <p class="works__category">Веб-сайт</p>
+          </li>
+          <li class="works__item">
+            <img
+              src="./assets/image/portfolio/portfolio-work-2.jpg"
+              alt="Дизайн: Постер Новый Орлеан против Золотой Звезды"
+              width="370"
+            />
+            <h3 class="works__title">Постер New Orlean vs Golden Star</h3>
+            <p class="works__category">Дизайн</p>
+          </li>
+          <li class="works__item">
+            <img
+              src="./assets/image/portfolio/portfolio-work-3.jpg"
+              alt="Приложение: Ресторан МорскаяЕда"
+              width="370"
+            />
+            <h3 class="works__title">Ресторан Seafood</h3>
+            <p class="works__category">Приложение</p>
+          </li>
+          <li class="works__item">
+            <img
+              src="./assets/image/portfolio/portfolio-work-4.jpg"
+              alt="Маркетинг: Проект Основной"
+              width="370"
+            />
+            <h3 class="works__title">Проект Prime</h3>
+            <p class="works__category">Маркетинг</p>
+          </li>
+          <li class="works__item">
+            <img
+              src="./assets/image/portfolio/portfolio-work-5.jpg"
+              alt="Приложение: Проект Коробки"
+              width="370"
+            />
+            <h3 class="works__title">Проект Boxes</h3>
+            <p class="works__category">Приложение</p>
+          </li>
+          <li class="works__item">
+            <img
+              src="./assets/image/portfolio/portfolio-work-6.jpg"
+              alt="Веб-сайт: Вдохновение не имеет границ"
+              width="370"
+            />
+            <h3 class="works__title">Inspiration has no Borders</h3>
+            <p class="works__category">Веб-сайт</p>
+          </li>
+          <li class="works__item">
+            <img
+              src="./assets/image/portfolio/portfolio-work-7.jpg"
+              alt="Дизайн: Издание Ограниченный выпуск"
+              width="370"
+            />
+            <h3 class="works__title">Издание Limited Edition</h3>
+            <p>Дизайн</p>
+          </li>
+          <li class="works__item">
+            <img
+              src="./assets/image/portfolio/portfolio-work-8.jpg"
+              alt="Маркетинг: Проект ЛАБ"
+              width="370"
+            />
+            <h3 class="works__title">Проект LAB</h3>
+            <p class="works__category">Маркетинг</p>
+          </li>
+          <li class="works__item">
+            <img
+              src="./assets/image/portfolio/portfolio-work-9.jpg"
+              alt="Приложение: Растущий бизнес"
+              width="370"
+            />
+            <h3 class="works__title">Growing Business</h3>
+            <p class="works__category">Приложение</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a class="logo" href="./index.html"
+        >Web<span class="logo-footer">Studio</span></a
+      >
+      <address class="address">
+        <p class="address__item">г. Киев, пр-т Леси Украинки, 26</p>
       </address>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="footer__contact">
+        <li>
+          <a class="footer__contact-item" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="footer__contact-item" href="tel:+380961111111"
+            >+38 096 111 11 11</a
+          >
+        </li>
       </ul>
     </footer>
   </body>
