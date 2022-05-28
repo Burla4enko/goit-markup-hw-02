@@ -16,12 +16,9 @@
   box-sizing: border-box;
 }
 
-html {
-  font-size: var(--font-size);
-}
-
 body {
   font-family: var(--font-main),sans-serif;  
+  font-size: var(--font-size);
   color: var(--text-color-main);
 }
 
@@ -49,8 +46,8 @@ ul {
 
 .header__contacts-item {
   font-weight: 500;
-  font-size: 1rem;
-  line-height: .88;
+  font-size: 14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-color-accent);
   text-decoration: none;
@@ -67,7 +64,7 @@ ul {
 .logo {
   font-family: var(--font-accent);
   font-weight: 700;
-  font-size: 1.86rem;
+  font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
   letter-spacing: 0.03em;
@@ -75,11 +72,11 @@ ul {
 }
 
 .logo-header {
-  color: #000;
+  color: #000000;
 }
 
 .logo-footer {
-  color: #fff;
+  color: #ffffff;
 }
 
 
@@ -87,8 +84,8 @@ ul {
 
 .nav__link {
   font-weight: 500;
-  font-size: 1rem;
-  line-height: .88;
+  font-size: 14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-color-main);
   text-decoration: none;
@@ -108,7 +105,7 @@ ul {
 
 .intro__title {
   font-weight: 900;
-  font-size: 3.14rem;
+  font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
@@ -126,11 +123,11 @@ ul {
 
   font-family: var(--font-main);
   font-weight: 700;
-  font-size: 1.14rem;
+  font-size: 16px;
   line-height: 1.88; 
   text-align: center;
   letter-spacing: 0.06em;
-  color: #000000;
+  color: #FFFFFF;
   cursor: pointer;
 }
 
@@ -141,6 +138,16 @@ ul {
   color: #FFFFFF;
 }
 
+.btn--sm {
+  background-color: var(--light-bg-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
 .btn--sm:hover,
 .btn--sm:focus {
   background-color: var(--accent-color);
@@ -148,21 +155,11 @@ ul {
   color: #FFFFFF;
 }
 
-.btn--sm {
-  background-color: var(--light-bg-color);
-
-  font-weight: 500;
-  font-size: 1.14rem;
-  line-height: 1.62;
-  letter-spacing: 0.03em;
-}
-
-
 
 /* Section Title ============================= */
 
 .section-title {
-  font-size: 2.57rem;
+  font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
@@ -173,7 +170,7 @@ ul {
 /* Skills ============================= */
 
 .skills__title {
-  font-size: 1rem;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -181,7 +178,7 @@ ul {
 }
 
 .skills__text {  
-  font-size: 1rem;
+  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-color-accent);
@@ -198,7 +195,7 @@ ul {
 }
 .team__pers {
   font-weight: 500;
-  font-size: 1.14rem;
+  font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
@@ -206,7 +203,7 @@ ul {
 }
 
 .team__prof {  
-  font-size: 1.14rem;
+  font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
@@ -222,7 +219,7 @@ ul {
 
 .footer__contact-item {
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
@@ -240,7 +237,7 @@ ul {
 .address {
   font-style: normal;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #FFFFFF;
@@ -253,14 +250,14 @@ ul {
 /* Works ============================= */
 
 .works__title {
-  font-size: 1.29rem;
+  font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--text-color-main);
 }
 
 .works__category {
-  font-size: 1.14rem;
+  font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--text-color-accent)
