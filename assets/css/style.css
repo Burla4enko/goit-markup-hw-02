@@ -5,6 +5,7 @@
   --text-color-main: #212121;
   --text-color-accent: #757575;
   --accent-color: #2196F3;
+  --accent-color-dark: #188CE8;
   --bg-color: #2F303A;
   --light-bg-color: #F5F4FA;  
 } 
@@ -118,7 +119,7 @@ ul {
 /* Buttons ============================= */
 
 .btn {
-  background-color: var(--light-bg-color);
+  background-color: var(--accent-color);
   cursor: pointer;
   border: 0;
   border-radius: 4px;
@@ -134,7 +135,12 @@ ul {
 }
 
 .btn:hover,
-.btn:focus,
+.btn:focus {
+   background-color: var(--accent-color-dark);
+
+  color: #FFFFFF;
+}
+
 .btn--sm:hover,
 .btn--sm:focus {
   background-color: var(--accent-color);
@@ -143,6 +149,8 @@ ul {
 }
 
 .btn--sm {
+  background-color: var(--light-bg-color);
+
   font-weight: 500;
   font-size: 1.14rem;
   line-height: 1.62;
